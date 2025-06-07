@@ -40,7 +40,7 @@ export function Projects() {
       title: "Assignment Submission System",
       description:
         "Java SpringBoot service that streamlined assignment submissions, enhancing grading efficiency by 50% with robust authentication.",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/Assignmentapp.jpg?height=200&width=400",
       technologies: ["Java", "Spring Boot", "Authentication", "Database Optimization"],
       // liveUrl: "https://github.com/suryaakkala",
       githubUrl: "https://github.com/suryaakkala/OnlineAssignmentSDP",
