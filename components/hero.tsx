@@ -9,7 +9,7 @@ export function Hero() {
         <div className="text-center space-y-8">
           <div className="relative w-32 h-32 mx-auto mb-8">
             <Image
-              src="/placeholder.svg?height=128&width=128"
+              src="/me.jpg?height=128&width=128"
               alt="Akkala Surya Venkata Deepak"
               fill
               className="rounded-full object-cover border-4 border-primary"
@@ -18,7 +18,7 @@ export function Hero() {
 
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-              Hi, I'm <span className="text-primary">Surya Deepak</span>
+              Hi, I'm <span className="text-primary">Surya Akkala</span>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto">
               Full-Stack Developer & Software Engineer
@@ -57,12 +57,12 @@ export function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
-            <Button variant="ghost" size="icon" asChild>
+            {/* <Button variant="ghost" size="icon" asChild>
               <a href="https://www.behance.net/suryaakkala" target="_blank" rel="noopener noreferrer">
                 <Palette className="h-6 w-6" />
                 <span className="sr-only">Behance</span>
               </a>
-            </Button>
+            </Button> */}
             <Button variant="ghost" size="icon" asChild>
               <a href="mailto:2200032642cseh@gmail.com">
                 <Mail className="h-6 w-6" />

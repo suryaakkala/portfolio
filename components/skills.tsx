@@ -5,11 +5,11 @@ export function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["C/C++", "Java", "Python", "JavaScript", "TypeScript"],
+      skills: ["C/C++", "Java", "Python", "JavaScript", "SQL"],
     },
     {
       title: "Frontend Development",
-      skills: ["React", "Angular", "Vue.js", "Next.js", "HTML5", "CSS3", "Responsive Design"],
+      skills: ["React", "Vue.js", "Next.js", "HTML5", "CSS3", "Responsive Design", "Bootstrap"],
     },
     {
       title: "Backend Development",
@@ -17,11 +17,11 @@ export function Skills() {
     },
     {
       title: "DevOps & Cloud",
-      skills: ["AWS", "Linux", "Docker", "Git", "CI/CD", "Azure"],
+      skills: ["AWS", "Linux", "Docker", "Git", "Jenkins", "CI/CD", "Azure"],
     },
     {
       title: "Certifications",
-      skills: ["AWS Cloud Practitioner", "Azure AI Fundamentals", "Red Hat Certified", "Automation Anywhere RPA"],
+      skills: ["AWS Cloud Practitioner", "Azure AI Fundamentals", "Salesforce AI Associate", "Red Hat Certified", "Automation Anywhere RPA"],
     },
   ]
 

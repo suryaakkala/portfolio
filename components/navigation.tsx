@@ -36,7 +36,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link href="#home" className="text-2xl font-bold text-primary">
-            Surya Deepak
+            Surya Akkala
           </Link>
 
           {/* Desktop Navigation */}

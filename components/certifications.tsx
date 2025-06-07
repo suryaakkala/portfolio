@@ -34,6 +34,13 @@ export function Certifications() {
       verificationUrl: "https://certificates.automationanywhere.com/4212c819-8ebe-4a53-a08b-857820931bcc",
       status: "Active",
     },
+    {
+      title: "Salesforce Certified AI Associate",
+      issuer: "Salesforce",
+      date: "Oct 2024",
+      verificationUrl: "https://www.salesforce.com/trailblazer/suryaakkala",
+      status: "Active",
+    },
   ]
 
   return (

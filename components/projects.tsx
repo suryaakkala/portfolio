@@ -7,14 +7,34 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
     {
+      title: "Telugu Chatbot",
+      description:
+        "A Platform to Learn Telugu. Made for Telugu people to learn Telugu language with ease. It has a chatbot that can answer questions in Telugu.",
+      image: "/chatbotv2.png?height=200&width=400",
+      technologies: ["React", "Next.js", "Responsive Design"],
+      liveUrl: "https://suryaakkalachatbotv2.vercel.app/",
+      githubUrl: "https://github.com/suryaakkala/chatbotv2",
+      period: "Apr 2025 - May 2025",
+    },
+    {
       title: "Online Art Gallery",
       description:
         "Interactive online art gallery built with React and Next.js, driving a 50% increase in user engagement with optimized image loading.",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/artgallery.png?height=200&width=400",
       technologies: ["React", "Next.js", "Image Optimization", "Responsive Design"],
-      liveUrl: "https://github.com/suryaakkala",
-      githubUrl: "https://github.com/suryaakkala",
+      liveUrl: "https://suryaakkala-art-gallery.vercel.app/",
+      githubUrl: "https://github.com/suryaakkala/Art-Gallery",
       period: "Feb 2025 - Apr 2025",
+    },
+    {
+      title: "DevOps Icons Library",
+      description:
+        "A comprehensive library of DevOps icons, enhancing developer productivity with a user-friendly interface and efficient search functionality.",
+      image: "/iconlib.png?height=200&width=400",
+      technologies: ["Java", "Spring Boot", "Authentication", "Database Optimization"],
+      liveUrl: "https://icon-library.onrender.com/",
+      githubUrl: "https://github.com/suryaakkala/icon-lib",
+      period: "Mar 2025 - Apr 2025",
     },
     {
       title: "Assignment Submission System",
@@ -22,20 +42,21 @@ export function Projects() {
         "Java SpringBoot service that streamlined assignment submissions, enhancing grading efficiency by 50% with robust authentication.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: ["Java", "Spring Boot", "Authentication", "Database Optimization"],
-      liveUrl: "https://github.com/suryaakkala",
-      githubUrl: "https://github.com/suryaakkala",
+      // liveUrl: "https://github.com/suryaakkala",
+      githubUrl: "https://github.com/suryaakkala/OnlineAssignmentSDP",
       period: "Sep 2024 - Nov 2024",
     },
     {
       title: "Parking Lot Management System",
       description:
         "Python Django system that boosted space utilization efficiency by 25% with real-time monitoring capabilities.",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/parkingapp.png?height=200&width=400",
       technologies: ["Python", "Django", "Real-time Monitoring", "Database Optimization"],
-      liveUrl: "https://github.com/suryaakkala",
-      githubUrl: "https://github.com/suryaakkala",
+      // liveUrl: "https://github.com/suryaakkala",
+      githubUrl: "https://github.com/suryaakkala/Parking-Lot-Managent-System",
       period: "May 2024 - Jul 2024",
     },
+
   ]
 
   return (
@@ -69,12 +90,14 @@ export function Projects() {
                 </div>
               </CardContent>
               <CardFooter className="flex gap-2">
-                <Button size="sm" asChild>
-                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
-                  </a>
-                </Button>
+                  {project.liveUrl && (
+                    <Button size="sm" asChild>
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Live Demo
+                      </a>
+                    </Button>
+                  )}
                 <Button variant="outline" size="sm" asChild>
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4 mr-2" />

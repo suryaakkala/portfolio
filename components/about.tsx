@@ -47,6 +47,7 @@ export function About() {
               <p className="font-semibold">Education:</p>
               <p className="text-muted-foreground">• B.Tech Computer Science - KL University (2022-Present)</p>
               <p className="text-muted-foreground">• Intermediate - NRI Junior College (2020-2022)</p>
+              <p className="text-muted-foreground">• Senior Secondary - NRI'S Indian Springs (2019-2020)</p>
             </div>
           </div>
 

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Portfolio showcasing software development projects, certifications, and professional experience",
     type: "website",
   },
-    generator: 'v0.dev'
+    // generator: 'v0.dev'
 }
 
 export default function RootLayout({
