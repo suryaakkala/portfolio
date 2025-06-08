@@ -35,7 +35,7 @@ export function Hero() {
               <a href="#projects">View My Work</a>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="/resume.pdf" download="Akkala_Surya_Venkata_Deepak_Resume.pdf">
+              <a href="/Akkala_Surya_Venkata_Deepak_Resume.pdf" download="Akkala_Surya_Venkata_Deepak_Resume.pdf">
                 Download Resume
               </a>
             </Button>
