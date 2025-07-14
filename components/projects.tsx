@@ -27,11 +27,21 @@ export function Projects() {
       period: "Feb 2025 - Apr 2025",
     },
     {
+      title: "AI Code Converter",
+      description:
+        "A modern web app that uses LLaMA 3.1 to convert code between C, Java, and Python. Built with Next.js 15, Tailwind CSS, and React Hook Form for seamless UI and robust form handling.",
+      image: "/codeconverter.png?height=200&width=400",
+      technologies: ["Next.js 15", "Tailwind CSS", "LLaMA 3.1", "Radix UI", "React Hook Form"],
+      liveUrl: "https://suryaakkalacodeconverter.vercel.app/",
+      githubUrl: "https://github.com/suryaakkala/Code-Converter",
+      period: "Jul 2025",
+    },
+    {
       title: "DevOps Icons Library",
       description:
-        "A comprehensive library of DevOps icons, enhancing developer productivity with a user-friendly interface and efficient search functionality.",
+        "A fully containerized icon explorer offering 1000+ tech and brand icons in PNG/SVG formats. Built with vanilla JS, Dockerized with Nginx, and deployed via Jenkins CI/CD pipeline using Docker Hub integration.",
       image: "/iconlib.png?height=200&width=400",
-      technologies: ["Java", "Spring Boot", "Authentication", "Database Optimization"],
+      technologies: ["HTML", "CSS", "JavaScript (ES Modules)", "Docker", "Nginx", "Jenkins", "Python"],
       liveUrl: "https://icon-library.onrender.com/",
       githubUrl: "https://github.com/suryaakkala/icon-lib",
       period: "Mar 2025 - Apr 2025",
